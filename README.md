@@ -117,7 +117,7 @@ Este método imprime a estrutura de dados de acordo com a ordem em que seus elem
 
 Armazena os dados de cada `Individuo` em um `vetor` com tamanho alocado pelo usuário no tempo de execução.
 
-### Lista Sequencial Dinâmica _(em desenvolvimento)_
+### [Lista Sequencial Dinâmica](02_lista_sequencial_dinamica/README.md)
 
 Armazena os dados de cada `Individuo` em diferentes formas de listas encadeadas.
 
