@@ -121,7 +121,7 @@ Armazena os dados de cada `Individuo` em um `vetor` com tamanho alocado pelo usu
 
 Armazena os dados de cada `Individuo` em diferentes formas de listas encadeadas.
 
-### Fila (`FIFO`) _(em desenvolvimento)_
+### [Fila (`FIFO`)](03_fila/README.md)
 
 Armazena os dados de cada `Individuo` em forma de fila, onde o primeiro elemento da fila é o primeiro a ser removido.
 

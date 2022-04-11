@@ -215,7 +215,7 @@ Por fim, o ponteiro `proximo` do novo `No` é apontado para o ponteiro `inicio` 
 
 ## Remover
 
-O método recebe uma variável `int`: id como parâmetro, utiliza uma variável `Individuo`: generico, inicializada pelo construtor padrão e verifica se a lista está vazia. Em caso afirmativo, o método é encerrado e retorna o booleano `false`.
+O método recebe uma variável `int`: id como parâmetro, utiliza uma variável `Individuo`: generico, inicializada pelo construtor padrão e verifica se a lista está vazia. Em caso afirmativo, o método é encerrado e retorna a variável generico.
 
 ```cpp
 Individuo ListaCircular::remover(int id)
@@ -314,7 +314,7 @@ Caso o loop encerre sem encontrar um `Individuo` com `id` igual ao obtido no par
 
 ## Buscar
 
-O método recebe uma variável `int`: id como parâmetro, utiliza uma variável `Individuo`: generico, inicializada pelo construtor padrão e verifica se a lista está vazia. Em caso afirmativo, o método é encerrado e retorna o booleano `false`.
+O método recebe uma variável `int`: id como parâmetro, utiliza uma variável `Individuo`: generico, inicializada pelo construtor padrão e verifica se a lista está vazia. Em caso afirmativo, o método é encerrado e retorna a variável generico.
 
 ```cpp
 Individuo ListaCircular::buscar(int id)

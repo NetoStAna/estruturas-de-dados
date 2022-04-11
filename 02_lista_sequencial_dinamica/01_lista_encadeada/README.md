@@ -223,7 +223,7 @@ O método então encerra e retorna o booleano `true`.
 
 ## Remover
 
-O método recebe uma variável `int`: id como parâmetro, utiliza uma variável `Individuo`: generico, inicializada pelo construtor padrão e verifica se a lista está vazia. Em caso afirmativo, o método é encerrado e retorna o booleano `false`.
+O método recebe uma variável `int`: id como parâmetro, utiliza uma variável `Individuo`: generico, inicializada pelo construtor padrão e verifica se a lista está vazia. Em caso afirmativo, o método é encerrado e retorna a variável generico.
 
 ```cpp
 Individuo ListaEncadeada::remover(int id)
@@ -302,7 +302,7 @@ Por fim, o ponteiro `atual` é liberado da memória e o método encerra, retorna
 
 ## Buscar
 
-O método recebe uma variável `int`: id como parâmetro, utiliza uma variável `Individuo`: generico, inicializada pelo construtor padrão e verifica se a lista está vazia. Em caso afirmativo, o método é encerrado e retorna o booleano `false`.
+O método recebe uma variável `int`: id como parâmetro, utiliza uma variável `Individuo`: generico, inicializada pelo construtor padrão e verifica se a lista está vazia. Em caso afirmativo, o método é encerrado e retorna a variável generico.
 
 ```cpp
 Individuo ListaEncadeada::buscar(int id)

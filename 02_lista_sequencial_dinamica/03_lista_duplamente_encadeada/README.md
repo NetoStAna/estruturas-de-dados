@@ -212,7 +212,7 @@ Por fim a variável quantidade_itens do descritor é incrementada em uma unidade
 
 ## Remover
 
-O método recebe uma variável `int`: id como parâmetro, utiliza uma variável `Individuo`: generico, inicializada pelo construtor padrão e verifica se a lista está vazia. Em caso afirmativo, o método é encerrado e retorna o booleano `false`.
+O método recebe uma variável `int`: id como parâmetro, utiliza uma variável `Individuo`: generico, inicializada pelo construtor padrão e verifica se a lista está vazia. Em caso afirmativo, o método é encerrado e retorna a variável generico.
 
 ```cpp
 Individuo ListaEncadeada::remover(int id)
@@ -306,7 +306,7 @@ Por fim, o ponteiro `atual` é liberado da memória, a variável quantidade_iten
 
 ## Buscar
 
-O método recebe uma variável `int`: id como parâmetro, utiliza uma variável `Individuo`: generico, inicializada pelo construtor padrão e verifica se a lista está vazia. Em caso afirmativo, o método é encerrado e retorna o booleano `false`.
+O método recebe uma variável `int`: id como parâmetro, utiliza uma variável `Individuo`: generico, inicializada pelo construtor padrão e verifica se a lista está vazia. Em caso afirmativo, o método é encerrado e retorna a variável generico.
 
 ```cpp
 Individuo ListaEncadeada::buscar(int id)
