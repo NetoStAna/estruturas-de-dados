@@ -182,8 +182,8 @@ Individuo FilaEstatica::buscar(int id)
 Caso contrário, o método utiliza um laço `for` que pode percorrer toda a fila.
 
 ```cpp
-for (int i = this->primeiro; i < this->ultimo; i++)
-{
+	for (int i = this->primeiro; i < this->ultimo; i++)
+	{
 ```
 
 A cada etapa do laço o `id` do `Individuo` armazenado na posição do vetor correspondente ao resto da divisão do valor de `i` pelo valor armazenado na variável `capacidade_max` é comparado ao `id` recebido como parâmetro. O primeiro elemento cujo `id` seja igual ao `id` recebido encerra o método e o `Individuo` dessa posição é retornado.
@@ -198,7 +198,8 @@ A cada etapa do laço o `id` do `Individuo` armazenado na posição do vetor cor
 Caso o laço complete toda a fila sem encontrar um `Individuo` cujo `id` seja igual ao recebido como parâmetro, a variável generico é retornada.
 
 ```cpp
-		
+	}
+
 		return generico;
 }
 ```

@@ -125,7 +125,7 @@ Armazena os dados de cada `Individuo` em diferentes formas de listas encadeadas.
 
 Armazena os dados de cada `Individuo` em forma de fila, onde o primeiro elemento da fila é o primeiro a ser removido.
 
-### Pilha (`LIFO`) _(em desenvolvimento)_
+### [Pilha (`LIFO`)](04_pilha/README.md)
 
 Armazena os dados de cada `Individuo` em forma de pilha, onde o último elemento da pilha é o primeiro a ser removido.
 
