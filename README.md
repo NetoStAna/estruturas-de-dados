@@ -129,7 +129,7 @@ Armazena os dados de cada `Individuo` em forma de fila, onde o primeiro elemento
 
 Armazena os dados de cada `Individuo` em forma de pilha, onde o último elemento da pilha é o primeiro a ser removido.
 
-### Tabela Hash _(em desenvolvimento)_
+### [Tabela Hash](05_tabela_hash/README.md)
 
 Armazena os dados de cada `Individuo` em um `vetor` na posição respectiva ao resultado de uma `função hash` aplicada sobre o seu `id`. Diferentes formas de tratamento de colisões estão apresentadas.
 
